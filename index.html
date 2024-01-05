@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+        <h1>CALCUDAUS</h1>
+      <div class="card">
+        <div class="container">
+          <div class="result">
+            <h2 class="number-result">0</h2>
+          </div>
+          <div class="wrapper">
+            <div class="row">
+              <button class="button number">7</button>
+              <button class="button number">8</button>
+              <button class="button number">9</button>
+              <button class="button ce">CE</button>
+            </div>
+            <div class="row">
+              <button class="button number">4</button>
+              <button class="button number">5</button>
+              <button class="button number">6</button>
+              <button class="button operator">:</button>
+            </div>
+            <div class="row">
+              <button class="button number">1</button>
+              <button class="button number">2</button>
+              <button class="button number">3</button>
+              <button class="button operator">x</button>
+            </div>
+            <div class="row">
+              <button class="button number">0</button>
+              <button class="button operator">+</button>
+              <button class="button operator">-</button>
+              <button class="button equals">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="table">
+        <button class="hapus-data">Hapus Data</button>
+        <table >
+            <thead>
+                <tr>
+                    <th>First</th>
+                    <th>Operator</th>
+                    <th>Second</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody id="table-data">
+                
+            </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
